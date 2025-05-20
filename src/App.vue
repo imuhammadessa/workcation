@@ -1,8 +1,18 @@
 <script setup>
 import Header from './components/Header.vue';
+import HeroSection from './components/HeroSection.vue';
+import Footer from './components/Footer.vue';
 
 </script>
 
 <template>
- <Header />
+    <header>
+        <Header />
+    </header>
+    <main>
+        <HeroSection />
+    </main>
+    <footer>
+        <Footer />
+    </footer>
 </template>
