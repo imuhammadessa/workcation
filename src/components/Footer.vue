@@ -66,6 +66,7 @@ export default {
       menuItems: [
         { name: "Home", path: "/", classes: "text-indigo-500 hover:text-indigo-800" },
         { name: "About", path: "/about", classes: "text-[#615FFF] hover:text-[#817DFF]" },
+        { name: "Blog", path: "/Blog", classes: "text-[#615FFF] hover:text-[#817DFF]" },
         { name: "Services", path: "/services", classes: "text-[#615FFF] hover:text-[#817DFF]" },
         { name: "Contact", path: "/contact", classes: "text-[#615FFF] hover:text-[#817DFF]" },
       ],
