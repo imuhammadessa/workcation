@@ -1,1 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu Mono");
 @import "tailwindcss";
+
+@theme {
+  ----default-font-family: "Ubuntu Mono", monospace;
+}
+
+body {
+  font-family: "Ubuntu Mono", monospace;
+  /* font-weight: bold; */
+}
