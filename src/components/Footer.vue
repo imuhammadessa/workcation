@@ -52,6 +52,7 @@
 import logoImage from "../assets/images/workcation-1.png";
 import { Linkedin, Facebook, Instagram, Twitter } from "lucide-vue-next";
 
+
 export default {
   name: "FooterComponent",
   components: {
