@@ -5,12 +5,7 @@
         <h2 class='text-indigo-500 font-bold'>Take advantage of it.</h2>
         <p>Workcation helps you find work-friendly rentals in beautiful locations so you can enjoy some nice weather even when you're not on vacation.</p>
     </div>
+    <div>
+        <img src='../assets/images/hero-img.jpg' alt='Hero image' />
+    </div>
 </template>
-<script>
-export default {
-    
-}
-</script>
-<style lang="">
-    
-</style>
