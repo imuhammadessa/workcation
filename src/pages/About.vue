@@ -7,7 +7,7 @@
 
     <!-- Travel Image -->
     <img
-      src="Travel visual.jpg"
+      src="../assets/images/Hero-img3.jpg"
       alt="Travel Visual"
       class="w-full max-w-4xl h-auto object-cover rounded-2xl shadow-xl mb-10 sm:mb-12"
     />

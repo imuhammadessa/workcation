@@ -1,18 +1,4 @@
-<script setup>
-import Header from './components/Header.vue';
-import HeroSection from './components/HeroSection.vue';
-import Footer from './components/Footer.vue';
-
-</script>
-
 <template>
-    <header>
-        <Header />
-    </header>
-    <main>
-        <HeroSection />
-    </main>
-    <footer>
-        <Footer />
-    </footer>
+  <router-view />
 </template>
+
