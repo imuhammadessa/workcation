@@ -61,7 +61,7 @@ export default {
     Instagram,
     Twitter,
   },
-  data() {
+ data() {
     return {
       logo: logoImage,
       menuItems: [
