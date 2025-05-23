@@ -11,7 +11,8 @@
       <h2 class="text-2xl sm:text-3xl font-bold text-blue-700 text-center mb-6">Our Travel & Tourism Services</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <div v-for="(service, index) in services" :key="index" class="bg-white border rounded-2xl p-6 shadow-lg hover:shadow-2xl transition duration-300">
-          <img :src="service.image" :alt="service.title" class="w-full h-40 object-cover rounded-xl mb-4" />
+          <img :src="service.image" :alt="service.title" class="w-full h-50 object-cover rounded-xl mb-4" />
+
           <h3 class="text-lg font-semibold text-blue-600">{{ service.title }}</h3>
           <p class="text-sm text-gray-700 mt-2">{{ service.description }}</p>
         </div>
@@ -85,12 +86,12 @@ export default {
         {
           title: "Adventure Tours",
           description: "Experience thrilling adventures from skydiving to deep-sea diving across global hotspots.",
-          image: "https://source.unsplash.com/400x300/?adventure"
+          image: "/images/adventure.jpg"
         },
         {
           title: "Luxury Resorts",
           description: "Book world-class resorts with 5-star amenities tailored for comfort and relaxation.",
-          image: "https://source.unsplash.com/400x300/?luxury,resort"
+          image: ""
         },
         {
           title: "Cultural Tours",
@@ -114,10 +115,10 @@ export default {
         }
       ],
       destinations: [
-  { name: "Paris", image: "/paris.jpg" },
-  { name: "Maldives", image: "/Maldivas.jpg" },
-  { name: "Tokyo", image: "/tokeyo.jpg" },
-  { name: "Dubai", image: "/dubai.jpg" }
+  { name: "Paris", image: "/images/paris.jpg" },
+  { name: "Maldives", image: "/images/maldivas.jpg" },
+  { name: "Tokyo", image: "/images/tokeyo.jpg" },
+  { name: "Dubai", image: "/images/dubai.jpg" }
 ]
     };
   }
