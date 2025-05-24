@@ -2,6 +2,11 @@ import { ref, watchEffect } from "vue";
 
 const theme = ref("light");
 
+const savedTheme = localStorage.getItem("theme");
+if (savedTheme) {
+  theme.value = savedTheme;
+}
+
 export function useTheme() {
   const toggleTheme = () => {
     theme.value = theme.value === "light" ? "dark" : "light";
@@ -17,12 +22,6 @@ export function useTheme() {
 
     localStorage.setItem("theme", theme.value);
   });
-
-  // Load theme from localStorage
-  const savedTheme = localStorage.getItem("theme");
-  if (savedTheme) {
-    theme.value = savedTheme;
-  }
 
   return {
     theme,
