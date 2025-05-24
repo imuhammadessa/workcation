@@ -1,13 +1,5 @@
-<template lang="">
+<template>
     <div>
-        <h1>This is blog page!</h1>
+        <h1>Blog section is Here</h1>
     </div>
 </template>
-<script>
-export default {
-    
-}
-</script>
-<style lang="">
-    
-</style>
