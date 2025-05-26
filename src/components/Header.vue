@@ -48,6 +48,7 @@ watchEffect(() => {
       <router-link to="/" class="hover:text-indigo-400 transition">Home</router-link>
       <router-link to="/services" class="hover:text-indigo-400 transition">Services</router-link>
       <router-link to="/blog" class="hover:text-indigo-400 transition">Blog</router-link>
+       <router-link to="/career" class="hover:text-indigo-400 transition">Career</router-link>
       <router-link to="/about" class="hover:text-indigo-400 transition">About</router-link>
       <router-link to="/contact" class="hover:text-indigo-400 transition">Contact</router-link>
       <!-- Dark Mode Toggle (Desktop) -->
