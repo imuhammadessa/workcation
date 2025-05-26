@@ -41,6 +41,7 @@ watchEffect(() => {
       <svg class="h-8 w-auto" fill="none" viewBox="0 0 185 32" xmlns="http://www.w3.org/2000/svg">
         <!-- SVG content omitted for brevity -->
       </svg>
+      <h1>Workcation</h1>
     </div>
 
     <!-- Desktop Menu -->
@@ -99,6 +100,7 @@ watchEffect(() => {
       <router-link to="/services" class="block hover:text-indigo-400 transition">Services</router-link>
       <router-link to="/blog" class="block hover:text-indigo-400 transition">Blog</router-link>
       <router-link to="/about" class="block hover:text-indigo-400 transition">About</router-link>
+      <router-link to="/announcement" class="block hover:text-indigo-400 transition">Announcement</router-link>
       <router-link to="/contact" class="block hover:text-indigo-400 transition">Contact</router-link>
       <!-- Dark Mode Toggle (Mobile) -->
       <button
